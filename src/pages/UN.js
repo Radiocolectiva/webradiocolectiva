@@ -37,9 +37,13 @@ const UN = () => {
         Las noticias más preocupantes ayer jueves llegaron de Argentina, que alcanzó un nuevo récord de contagios al sumar 41.080 casos en un día, en tanto que registró 551 muertes y superó los 76.000 decesos desde que se inició la pandemia.
 Chile volvió a superar ayer jueves los 8.000 casos nuevos de COVID-19, una cifra que no se registraba desde abril, cuando el país vivió los momentos más críticos de la segunda ola de la pandemia, y pese a que más del 50% de la población ya ha recibido las dos dosis de la vacuna."</h3>
         <br></br>
-        <a>
-          <img src={imgNI1} className="img" alt="" />
-        </a>
+        <div>
+          <button className="cart-btn">
+            <a href="https://www.facebook.com/ColectivaRadioo/photos/a.134366241651765/319097376511983/?type=3&theater">
+              <img src={imgNI1} className="img" alt="" />
+            </a>
+          </button>
+        </div>
 
 
       </div>
